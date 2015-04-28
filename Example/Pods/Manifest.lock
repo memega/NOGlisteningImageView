@@ -1,0 +1,14 @@
+PODS:
+  - NOGlisteningImageView (0.1.0)
+
+DEPENDENCIES:
+  - NOGlisteningImageView (from `../`)
+
+EXTERNAL SOURCES:
+  NOGlisteningImageView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NOGlisteningImageView: 73b0ffa146c6ce1dcad85d9494aceebc3d565331
+
+COCOAPODS: 0.36.3

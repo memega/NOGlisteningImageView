@@ -1,0 +1,6 @@
+#include "Pods-NOGlisteningImageView-NOGlisteningImageView.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/NOGlisteningImageView" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/NOGlisteningImageView"
+OTHER_LDFLAGS = ${PODS_NOGLISTENINGIMAGEVIEW_NOGLISTENINGIMAGEVIEW_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

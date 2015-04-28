@@ -1,0 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'NOGlisteningImageView', :exclusive => true do
+  pod "NOGlisteningImageView", :path => "../"
+end
