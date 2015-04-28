@@ -6,7 +6,7 @@
 
 A drop-in replacement for UIImageView. Repeatedly plays a simple highlight animation, similar to a highlight on a coin when a bright light moves quickly alongside it.
 
-![Demo](NOGlisteningView.gif)
+![Demo](NOGlisteningImageView.gif)
 
 Originally developed to be used in storyboards or nibs when it is needed to draw user attention to certain graphical elements. All public properties can be configured by setting in the User Defined Runtime Attributes section in Xcode's Identity Inspector.
 
