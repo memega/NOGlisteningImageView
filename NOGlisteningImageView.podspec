@@ -9,8 +9,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "NOGlisteningImageView"
-  s.version          = "0.1.0"
-  s.summary          = "A drop-in replacement for UIImageView. Repeatedly plays a simple highlight animation, similar to a highlight on a coin when a bright light moves quickly alongside it."
+  s.version          = "1.0.0"
+  s.summary          = "A drop-in replacement for UIImageView. Repeatedly plays a simple highlight animation."
   s.description      = <<-DESC
 Originally developed to be used in storyboards or nibs when it is needed to draw user attention to certain graphical elements. All public properties can be configured by setting in the User Defined Runtime Attributes section in Xcode's Identity Inspector.
 
@@ -25,9 +25,6 @@ Animations start playing automatically when this view is added to a UIWindow, an
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'NOGlisteningImageView' => ['Pod/Assets/*.png']
-  }
 
   s.frameworks = 'QuartzCore'
 end

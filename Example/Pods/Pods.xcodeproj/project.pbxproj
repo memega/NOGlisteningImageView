@@ -7,337 +7,295 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E45F322C31E6840D53A1FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02F0C4BC9F7E5BE0F197D88 /* Foundation.framework */; };
-		2BDB32E363C618149CCE43C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02F0C4BC9F7E5BE0F197D88 /* Foundation.framework */; };
-		313DA1A245BEDE97036CF67E /* Pods-NOGlisteningImageView-NOGlisteningImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9651C2A7548B1AAD0DBF8 /* Pods-NOGlisteningImageView-NOGlisteningImageView-dummy.m */; };
-		85BF830C67215C1087D9DD13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E0F7DCE3C96634570FFB29 /* QuartzCore.framework */; };
-		92F5530DA6CD51D2C6B094D3 /* Pods-NOGlisteningImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4EA2F5596886DBED27D40A /* Pods-NOGlisteningImageView-dummy.m */; };
-		9B2913977D0238EB38E810AC /* NOGlisteningImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D41E9C84781131AEFD4824E /* NOGlisteningImageView.h */; };
-		DB09AC3461484CC1E687D0CF /* NOGlisteningImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6BC411A2DD64FE87BD0A6A /* NOGlisteningImageView.m */; };
+		02324DC74EE68F9FCCDF732F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80D7FB6D03208C0EDB05F00 /* QuartzCore.framework */; };
+		28B51B5549E9527F7CFBD697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9535D62973F4DF4D68384EA7 /* Foundation.framework */; };
+		46B0C62F2878943FA19D139C /* Pods-NOGlisteningImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82C3DDDB5D8816B97EF454 /* Pods-NOGlisteningImageView-dummy.m */; };
+		88FEA167ABC70102215517F7 /* NOGlisteningImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC0CB6F17A8A6D947C2B9F0 /* NOGlisteningImageView.h */; };
+		A51518103B881D6E929C6665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9535D62973F4DF4D68384EA7 /* Foundation.framework */; };
+		C5A5AF470307AC99151123C8 /* NOGlisteningImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 989B64A485653677B9887306 /* NOGlisteningImageView.m */; };
+		EC133D0CBD95C23A4882BE9D /* Pods-NOGlisteningImageView-NOGlisteningImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 644F3ED2C8C4CE09A8B08A2F /* Pods-NOGlisteningImageView-NOGlisteningImageView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01B3C1F3693FEEDE993A653D /* PBXContainerItemProxy */ = {
+		80E1F18E0161F27527BB0F02 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EEA0683B7BE5C45330095736 /* Project object */;
+			containerPortal = 682755059B214BBF2B9F409A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ABD92BD7C770DC62EB739C10;
-			remoteInfo = "Pods-NOGlisteningImageView-NOGlisteningImageView-NOGlisteningImageView";
-		};
-		F646F777B8AE8D4FEB829195 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EEA0683B7BE5C45330095736 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 506CDD15DFF25D2AF8FE4C6A;
+			remoteGlobalIDString = ADABBABDF70D548D62A68EDD;
 			remoteInfo = "Pods-NOGlisteningImageView-NOGlisteningImageView";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17E0F7DCE3C96634570FFB29 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		1ACE0835C234BC893F83B724 /* Pods-NOGlisteningImageView-NOGlisteningImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NOGlisteningImageView-NOGlisteningImageView-prefix.pch"; sourceTree = "<group>"; };
-		2E5646B2D43381D609CB1BE7 /* Pods-NOGlisteningImageView-NOGlisteningImageView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NOGlisteningImageView-NOGlisteningImageView-Private.xcconfig"; sourceTree = "<group>"; };
-		3B9125AC1B55D730C6D8918A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3FA720C4DF6815DF3E358B7D /* libPods-NOGlisteningImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NOGlisteningImageView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		40B5905A5FC266E0D599EE04 /* Pods-NOGlisteningImageView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NOGlisteningImageView-resources.sh"; sourceTree = "<group>"; };
-		50F999EDB503B481B9EEEC94 /* libPods-NOGlisteningImageView-NOGlisteningImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NOGlisteningImageView-NOGlisteningImageView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C7AC2EE8B8B3887DEA9A364 /* Pods-NOGlisteningImageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NOGlisteningImageView.release.xcconfig"; sourceTree = "<group>"; };
-		6D41E9C84781131AEFD4824E /* NOGlisteningImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NOGlisteningImageView.h; sourceTree = "<group>"; };
-		733B4C3822660F918CFFE9E8 /* Pods-NOGlisteningImageView-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NOGlisteningImageView-environment.h"; sourceTree = "<group>"; };
-		8C4EA2F5596886DBED27D40A /* Pods-NOGlisteningImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NOGlisteningImageView-dummy.m"; sourceTree = "<group>"; };
-		906428BD350E5C16129DCB9E /* Pods-NOGlisteningImageView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NOGlisteningImageView-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9DE9651C2A7548B1AAD0DBF8 /* Pods-NOGlisteningImageView-NOGlisteningImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NOGlisteningImageView-NOGlisteningImageView-dummy.m"; sourceTree = "<group>"; };
-		AD8AB945911E555F6949CAC1 /* Pods-NOGlisteningImageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NOGlisteningImageView.debug.xcconfig"; sourceTree = "<group>"; };
-		B02F0C4BC9F7E5BE0F197D88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		BA6BC411A2DD64FE87BD0A6A /* NOGlisteningImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NOGlisteningImageView.m; sourceTree = "<group>"; };
-		D6EFDBCC69427777DDA94261 /* NOGlisteningImageView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NOGlisteningImageView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA2EB34318630396DE9E1317 /* Pods-NOGlisteningImageView-NOGlisteningImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NOGlisteningImageView-NOGlisteningImageView.xcconfig"; sourceTree = "<group>"; };
-		EED5B4711DB7761AF3098937 /* Pods-NOGlisteningImageView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NOGlisteningImageView-acknowledgements.plist"; sourceTree = "<group>"; };
+		08EA9A0E4C5A0AF0DB21A454 /* Pods-NOGlisteningImageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NOGlisteningImageView.release.xcconfig"; sourceTree = "<group>"; };
+		37A7D93063C4FFAECE28DBF8 /* Pods-NOGlisteningImageView-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NOGlisteningImageView-environment.h"; sourceTree = "<group>"; };
+		4B82C3DDDB5D8816B97EF454 /* Pods-NOGlisteningImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NOGlisteningImageView-dummy.m"; sourceTree = "<group>"; };
+		5256B6C7AF223EB9C79901D0 /* Pods-NOGlisteningImageView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NOGlisteningImageView-resources.sh"; sourceTree = "<group>"; };
+		60FE87B112BDEAC93EE924C2 /* Pods-NOGlisteningImageView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NOGlisteningImageView-acknowledgements.plist"; sourceTree = "<group>"; };
+		644F3ED2C8C4CE09A8B08A2F /* Pods-NOGlisteningImageView-NOGlisteningImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NOGlisteningImageView-NOGlisteningImageView-dummy.m"; sourceTree = "<group>"; };
+		6CC0CB6F17A8A6D947C2B9F0 /* NOGlisteningImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NOGlisteningImageView.h; sourceTree = "<group>"; };
+		7406460B9833140D22553E33 /* Pods-NOGlisteningImageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NOGlisteningImageView.debug.xcconfig"; sourceTree = "<group>"; };
+		7DE532BB45A647CECC5EA3C1 /* libPods-NOGlisteningImageView-NOGlisteningImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NOGlisteningImageView-NOGlisteningImageView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		806E81674CFC39E539ABBCDE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8586FAACC58ACFE34535A9C5 /* Pods-NOGlisteningImageView-NOGlisteningImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NOGlisteningImageView-NOGlisteningImageView.xcconfig"; sourceTree = "<group>"; };
+		9535D62973F4DF4D68384EA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		989B64A485653677B9887306 /* NOGlisteningImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NOGlisteningImageView.m; sourceTree = "<group>"; };
+		A80D7FB6D03208C0EDB05F00 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B165381989B612F0EC99E36B /* Pods-NOGlisteningImageView-NOGlisteningImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NOGlisteningImageView-NOGlisteningImageView-prefix.pch"; sourceTree = "<group>"; };
+		D92C1C0985F8CC316DD247A0 /* libPods-NOGlisteningImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NOGlisteningImageView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D59B794A09309E43802DD9 /* Pods-NOGlisteningImageView-NOGlisteningImageView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NOGlisteningImageView-NOGlisteningImageView-Private.xcconfig"; sourceTree = "<group>"; };
+		F36B9C36EE9E71669FFD7D0F /* Pods-NOGlisteningImageView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NOGlisteningImageView-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		244E0485E81643135E82CBD2 /* Frameworks */ = {
+		B4E486CEF2BB830657191E88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BDB32E363C618149CCE43C9 /* Foundation.framework in Frameworks */,
-				85BF830C67215C1087D9DD13 /* QuartzCore.framework in Frameworks */,
+				A51518103B881D6E929C6665 /* Foundation.framework in Frameworks */,
+				02324DC74EE68F9FCCDF732F /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D480E3B299BFC4A97B574A7 /* Frameworks */ = {
+		F97332754FB72E0842AB5D98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E45F322C31E6840D53A1FC8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F5515A7EFE514D60063DAE1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				28B51B5549E9527F7CFBD697 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12015E71203A396CF1166F4C /* iOS */ = {
+		004B6C44FAEFE0542186D563 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B02F0C4BC9F7E5BE0F197D88 /* Foundation.framework */,
-				17E0F7DCE3C96634570FFB29 /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		3438034729C0BE3ABF400C6D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				543CF45D7283C97217100DB6 /* NOGlisteningImageView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		39F89BD435FBC8F420FCF30D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				896C9F2A8E30C5665F2668F7 /* Pods-NOGlisteningImageView */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		543CF45D7283C97217100DB6 /* NOGlisteningImageView */ = {
-			isa = PBXGroup;
-			children = (
-				A2A3FF7DC0D4F834FC0F5883 /* Pod */,
-				BAB1CA2831BEDC6DF6FFA74D /* Support Files */,
-			);
-			name = NOGlisteningImageView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		6EF2F3991DA760864621AEA7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D6EFDBCC69427777DDA94261 /* NOGlisteningImageView.bundle */,
-				3FA720C4DF6815DF3E358B7D /* libPods-NOGlisteningImageView.a */,
-				50F999EDB503B481B9EEEC94 /* libPods-NOGlisteningImageView-NOGlisteningImageView.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7A2F91237B6D5FA2382DFB72 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				12015E71203A396CF1166F4C /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		896C9F2A8E30C5665F2668F7 /* Pods-NOGlisteningImageView */ = {
-			isa = PBXGroup;
-			children = (
-				906428BD350E5C16129DCB9E /* Pods-NOGlisteningImageView-acknowledgements.markdown */,
-				EED5B4711DB7761AF3098937 /* Pods-NOGlisteningImageView-acknowledgements.plist */,
-				8C4EA2F5596886DBED27D40A /* Pods-NOGlisteningImageView-dummy.m */,
-				733B4C3822660F918CFFE9E8 /* Pods-NOGlisteningImageView-environment.h */,
-				40B5905A5FC266E0D599EE04 /* Pods-NOGlisteningImageView-resources.sh */,
-				AD8AB945911E555F6949CAC1 /* Pods-NOGlisteningImageView.debug.xcconfig */,
-				5C7AC2EE8B8B3887DEA9A364 /* Pods-NOGlisteningImageView.release.xcconfig */,
-			);
-			name = "Pods-NOGlisteningImageView";
-			path = "Target Support Files/Pods-NOGlisteningImageView";
-			sourceTree = "<group>";
-		};
-		8F5477DF200E3D82348B970B = {
-			isa = PBXGroup;
-			children = (
-				3B9125AC1B55D730C6D8918A /* Podfile */,
-				3438034729C0BE3ABF400C6D /* Development Pods */,
-				7A2F91237B6D5FA2382DFB72 /* Frameworks */,
-				6EF2F3991DA760864621AEA7 /* Products */,
-				39F89BD435FBC8F420FCF30D /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		A2A3FF7DC0D4F834FC0F5883 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D4A7B9F730B3C5B5969F9DE8 /* Classes */,
+				4F2D62C5F765B3457D594FF8 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
 		};
-		BAB1CA2831BEDC6DF6FFA74D /* Support Files */ = {
+		0EB7093DDEAD04FB0BBF11EB /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				EA2EB34318630396DE9E1317 /* Pods-NOGlisteningImageView-NOGlisteningImageView.xcconfig */,
-				2E5646B2D43381D609CB1BE7 /* Pods-NOGlisteningImageView-NOGlisteningImageView-Private.xcconfig */,
-				9DE9651C2A7548B1AAD0DBF8 /* Pods-NOGlisteningImageView-NOGlisteningImageView-dummy.m */,
-				1ACE0835C234BC893F83B724 /* Pods-NOGlisteningImageView-NOGlisteningImageView-prefix.pch */,
+				9535D62973F4DF4D68384EA7 /* Foundation.framework */,
+				A80D7FB6D03208C0EDB05F00 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		144101A3E6D605C133BCE909 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8586FAACC58ACFE34535A9C5 /* Pods-NOGlisteningImageView-NOGlisteningImageView.xcconfig */,
+				F1D59B794A09309E43802DD9 /* Pods-NOGlisteningImageView-NOGlisteningImageView-Private.xcconfig */,
+				644F3ED2C8C4CE09A8B08A2F /* Pods-NOGlisteningImageView-NOGlisteningImageView-dummy.m */,
+				B165381989B612F0EC99E36B /* Pods-NOGlisteningImageView-NOGlisteningImageView-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Pods-NOGlisteningImageView-NOGlisteningImageView";
 			sourceTree = "<group>";
 		};
-		D4A7B9F730B3C5B5969F9DE8 /* Classes */ = {
+		4444846398873A6D71009F74 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6D41E9C84781131AEFD4824E /* NOGlisteningImageView.h */,
-				BA6BC411A2DD64FE87BD0A6A /* NOGlisteningImageView.m */,
+				55781EBA14E77183B03813E9 /* NOGlisteningImageView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4F2D62C5F765B3457D594FF8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6CC0CB6F17A8A6D947C2B9F0 /* NOGlisteningImageView.h */,
+				989B64A485653677B9887306 /* NOGlisteningImageView.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		55781EBA14E77183B03813E9 /* NOGlisteningImageView */ = {
+			isa = PBXGroup;
+			children = (
+				004B6C44FAEFE0542186D563 /* Pod */,
+				144101A3E6D605C133BCE909 /* Support Files */,
+			);
+			name = NOGlisteningImageView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		991C3B7611F6F2A278BAC1EC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6DC9E1F5E8B4A7278B275DE /* Pods-NOGlisteningImageView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B37E45C36488956B3B4A1F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D92C1C0985F8CC316DD247A0 /* libPods-NOGlisteningImageView.a */,
+				7DE532BB45A647CECC5EA3C1 /* libPods-NOGlisteningImageView-NOGlisteningImageView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9BC60FD22C2197D95B37A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EB7093DDEAD04FB0BBF11EB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6DC9E1F5E8B4A7278B275DE /* Pods-NOGlisteningImageView */ = {
+			isa = PBXGroup;
+			children = (
+				F36B9C36EE9E71669FFD7D0F /* Pods-NOGlisteningImageView-acknowledgements.markdown */,
+				60FE87B112BDEAC93EE924C2 /* Pods-NOGlisteningImageView-acknowledgements.plist */,
+				4B82C3DDDB5D8816B97EF454 /* Pods-NOGlisteningImageView-dummy.m */,
+				37A7D93063C4FFAECE28DBF8 /* Pods-NOGlisteningImageView-environment.h */,
+				5256B6C7AF223EB9C79901D0 /* Pods-NOGlisteningImageView-resources.sh */,
+				7406460B9833140D22553E33 /* Pods-NOGlisteningImageView.debug.xcconfig */,
+				08EA9A0E4C5A0AF0DB21A454 /* Pods-NOGlisteningImageView.release.xcconfig */,
+			);
+			name = "Pods-NOGlisteningImageView";
+			path = "Target Support Files/Pods-NOGlisteningImageView";
+			sourceTree = "<group>";
+		};
+		EE184BDFFCFD8575C97149F2 = {
+			isa = PBXGroup;
+			children = (
+				806E81674CFC39E539ABBCDE /* Podfile */,
+				4444846398873A6D71009F74 /* Development Pods */,
+				CD9BC60FD22C2197D95B37A0 /* Frameworks */,
+				B37E45C36488956B3B4A1F01 /* Products */,
+				991C3B7611F6F2A278BAC1EC /* Targets Support Files */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7DE8C94DE3C6F2F070235C1A /* Headers */ = {
+		54E8A7173C4941865B9A0096 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B2913977D0238EB38E810AC /* NOGlisteningImageView.h in Headers */,
+				88FEA167ABC70102215517F7 /* NOGlisteningImageView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		506CDD15DFF25D2AF8FE4C6A /* Pods-NOGlisteningImageView-NOGlisteningImageView */ = {
+		3DA9B1B19C84BD3BED1F7C47 /* Pods-NOGlisteningImageView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2783AF8F211A784E17C32D1E /* Build configuration list for PBXNativeTarget "Pods-NOGlisteningImageView-NOGlisteningImageView" */;
+			buildConfigurationList = FF37357F804113C957BD3137 /* Build configuration list for PBXNativeTarget "Pods-NOGlisteningImageView" */;
 			buildPhases = (
-				CB9579F60F4C28DB002FCBAC /* Sources */,
-				244E0485E81643135E82CBD2 /* Frameworks */,
-				7DE8C94DE3C6F2F070235C1A /* Headers */,
+				5A27539F13FB4A9DF4626731 /* Sources */,
+				F97332754FB72E0842AB5D98 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EB3C9A46BA587EB230363194 /* PBXTargetDependency */,
-			);
-			name = "Pods-NOGlisteningImageView-NOGlisteningImageView";
-			productName = "Pods-NOGlisteningImageView-NOGlisteningImageView";
-			productReference = 50F999EDB503B481B9EEEC94 /* libPods-NOGlisteningImageView-NOGlisteningImageView.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		7EF56E888873D75B2D7CE451 /* Pods-NOGlisteningImageView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 01B7C6A9F0E343E328820A66 /* Build configuration list for PBXNativeTarget "Pods-NOGlisteningImageView" */;
-			buildPhases = (
-				4172DEFA0AA8B47EFC10A57B /* Sources */,
-				8D480E3B299BFC4A97B574A7 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1807FDEA3A27546EC3F365DC /* PBXTargetDependency */,
+				227AB14CC051FA248172B2A5 /* PBXTargetDependency */,
 			);
 			name = "Pods-NOGlisteningImageView";
 			productName = "Pods-NOGlisteningImageView";
-			productReference = 3FA720C4DF6815DF3E358B7D /* libPods-NOGlisteningImageView.a */;
+			productReference = D92C1C0985F8CC316DD247A0 /* libPods-NOGlisteningImageView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		ABD92BD7C770DC62EB739C10 /* Pods-NOGlisteningImageView-NOGlisteningImageView-NOGlisteningImageView */ = {
+		ADABBABDF70D548D62A68EDD /* Pods-NOGlisteningImageView-NOGlisteningImageView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C21DCF1F01CF0A7C88002313 /* Build configuration list for PBXNativeTarget "Pods-NOGlisteningImageView-NOGlisteningImageView-NOGlisteningImageView" */;
+			buildConfigurationList = 54898B5C69473AA1A0120A6F /* Build configuration list for PBXNativeTarget "Pods-NOGlisteningImageView-NOGlisteningImageView" */;
 			buildPhases = (
-				02F2A522A0D5BC479F581F38 /* Sources */,
-				8F5515A7EFE514D60063DAE1 /* Frameworks */,
-				A06F7D5B64DFFE8868598C9F /* Resources */,
+				E5A5EF2E2D69BA9D26CFC401 /* Sources */,
+				B4E486CEF2BB830657191E88 /* Frameworks */,
+				54E8A7173C4941865B9A0096 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-NOGlisteningImageView-NOGlisteningImageView-NOGlisteningImageView";
-			productName = "Pods-NOGlisteningImageView-NOGlisteningImageView-NOGlisteningImageView";
-			productReference = D6EFDBCC69427777DDA94261 /* NOGlisteningImageView.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = "Pods-NOGlisteningImageView-NOGlisteningImageView";
+			productName = "Pods-NOGlisteningImageView-NOGlisteningImageView";
+			productReference = 7DE532BB45A647CECC5EA3C1 /* libPods-NOGlisteningImageView-NOGlisteningImageView.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EEA0683B7BE5C45330095736 /* Project object */ = {
+		682755059B214BBF2B9F409A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = F5EF80D45391DC406277FACE /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 8219544CA508DF7E4497A276 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 8F5477DF200E3D82348B970B;
-			productRefGroup = 6EF2F3991DA760864621AEA7 /* Products */;
+			mainGroup = EE184BDFFCFD8575C97149F2;
+			productRefGroup = B37E45C36488956B3B4A1F01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7EF56E888873D75B2D7CE451 /* Pods-NOGlisteningImageView */,
-				506CDD15DFF25D2AF8FE4C6A /* Pods-NOGlisteningImageView-NOGlisteningImageView */,
-				ABD92BD7C770DC62EB739C10 /* Pods-NOGlisteningImageView-NOGlisteningImageView-NOGlisteningImageView */,
+				3DA9B1B19C84BD3BED1F7C47 /* Pods-NOGlisteningImageView */,
+				ADABBABDF70D548D62A68EDD /* Pods-NOGlisteningImageView-NOGlisteningImageView */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		A06F7D5B64DFFE8868598C9F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		02F2A522A0D5BC479F581F38 /* Sources */ = {
+		5A27539F13FB4A9DF4626731 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B0C62F2878943FA19D139C /* Pods-NOGlisteningImageView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4172DEFA0AA8B47EFC10A57B /* Sources */ = {
+		E5A5EF2E2D69BA9D26CFC401 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92F5530DA6CD51D2C6B094D3 /* Pods-NOGlisteningImageView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB9579F60F4C28DB002FCBAC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB09AC3461484CC1E687D0CF /* NOGlisteningImageView.m in Sources */,
-				313DA1A245BEDE97036CF67E /* Pods-NOGlisteningImageView-NOGlisteningImageView-dummy.m in Sources */,
+				C5A5AF470307AC99151123C8 /* NOGlisteningImageView.m in Sources */,
+				EC133D0CBD95C23A4882BE9D /* Pods-NOGlisteningImageView-NOGlisteningImageView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1807FDEA3A27546EC3F365DC /* PBXTargetDependency */ = {
+		227AB14CC051FA248172B2A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-NOGlisteningImageView-NOGlisteningImageView";
-			target = 506CDD15DFF25D2AF8FE4C6A /* Pods-NOGlisteningImageView-NOGlisteningImageView */;
-			targetProxy = F646F777B8AE8D4FEB829195 /* PBXContainerItemProxy */;
-		};
-		EB3C9A46BA587EB230363194 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-NOGlisteningImageView-NOGlisteningImageView-NOGlisteningImageView";
-			target = ABD92BD7C770DC62EB739C10 /* Pods-NOGlisteningImageView-NOGlisteningImageView-NOGlisteningImageView */;
-			targetProxy = 01B3C1F3693FEEDE993A653D /* PBXContainerItemProxy */;
+			target = ADABBABDF70D548D62A68EDD /* Pods-NOGlisteningImageView-NOGlisteningImageView */;
+			targetProxy = 80E1F18E0161F27527BB0F02 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2D0CAFD841F1B89C25BFE42E /* Debug */ = {
+		075F35CFB63D3E990BA03081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7406460B9833140D22553E33 /* Pods-NOGlisteningImageView.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		09A9852DB7ED21A4F4361557 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -369,51 +327,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		4D5B44C6465D73C169634347 /* Release */ = {
+		34A44252589FACB6A7DAA90C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E5646B2D43381D609CB1BE7 /* Pods-NOGlisteningImageView-NOGlisteningImageView-Private.xcconfig */;
+			baseConfigurationReference = 08EA9A0E4C5A0AF0DB21A454 /* Pods-NOGlisteningImageView.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-NOGlisteningImageView-NOGlisteningImageView/Pods-NOGlisteningImageView-NOGlisteningImageView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		4F8CBBFABCB892A610CB53A3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E5646B2D43381D609CB1BE7 /* Pods-NOGlisteningImageView-NOGlisteningImageView-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-NOGlisteningImageView-NOGlisteningImageView/Pods-NOGlisteningImageView-NOGlisteningImageView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		80CDD327EF20E4F23580B3EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C7AC2EE8B8B3887DEA9A364 /* Pods-NOGlisteningImageView.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -424,34 +350,39 @@
 			};
 			name = Release;
 		};
-		8B591E79E3F43026878032C9 /* Debug */ = {
+		3ACD8F2CF354151CB1BAA70A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1D59B794A09309E43802DD9 /* Pods-NOGlisteningImageView-NOGlisteningImageView-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = NOGlisteningImageView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		91672F1AB4481E4D8962B39B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD8AB945911E555F6949CAC1 /* Pods-NOGlisteningImageView.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-NOGlisteningImageView-NOGlisteningImageView/Pods-NOGlisteningImageView-NOGlisteningImageView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		A2026DE52983DF3280043A34 /* Release */ = {
+		424F67758907B6B261D05D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1D59B794A09309E43802DD9 /* Pods-NOGlisteningImageView-NOGlisteningImageView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-NOGlisteningImageView-NOGlisteningImageView/Pods-NOGlisteningImageView-NOGlisteningImageView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		64DE5F2E97634280342287FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -478,64 +409,44 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B945D5DEC802B00DEF095F55 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = NOGlisteningImageView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01B7C6A9F0E343E328820A66 /* Build configuration list for PBXNativeTarget "Pods-NOGlisteningImageView" */ = {
+		54898B5C69473AA1A0120A6F /* Build configuration list for PBXNativeTarget "Pods-NOGlisteningImageView-NOGlisteningImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91672F1AB4481E4D8962B39B /* Debug */,
-				80CDD327EF20E4F23580B3EF /* Release */,
+				3ACD8F2CF354151CB1BAA70A /* Debug */,
+				424F67758907B6B261D05D76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2783AF8F211A784E17C32D1E /* Build configuration list for PBXNativeTarget "Pods-NOGlisteningImageView-NOGlisteningImageView" */ = {
+		8219544CA508DF7E4497A276 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F8CBBFABCB892A610CB53A3 /* Debug */,
-				4D5B44C6465D73C169634347 /* Release */,
+				09A9852DB7ED21A4F4361557 /* Debug */,
+				64DE5F2E97634280342287FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C21DCF1F01CF0A7C88002313 /* Build configuration list for PBXNativeTarget "Pods-NOGlisteningImageView-NOGlisteningImageView-NOGlisteningImageView" */ = {
+		FF37357F804113C957BD3137 /* Build configuration list for PBXNativeTarget "Pods-NOGlisteningImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B591E79E3F43026878032C9 /* Debug */,
-				B945D5DEC802B00DEF095F55 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F5EF80D45391DC406277FACE /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D0CAFD841F1B89C25BFE42E /* Debug */,
-				A2026DE52983DF3280043A34 /* Release */,
+				075F35CFB63D3E990BA03081 /* Debug */,
+				34A44252589FACB6A7DAA90C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EEA0683B7BE5C45330095736 /* Project object */;
+	rootObject = 682755059B214BBF2B9F409A /* Project object */;
 }

@@ -8,7 +8,7 @@
 
 // NOGlisteningImageView
 #define COCOAPODS_POD_AVAILABLE_NOGlisteningImageView
-#define COCOAPODS_VERSION_MAJOR_NOGlisteningImageView 0
-#define COCOAPODS_VERSION_MINOR_NOGlisteningImageView 1
+#define COCOAPODS_VERSION_MAJOR_NOGlisteningImageView 1
+#define COCOAPODS_VERSION_MINOR_NOGlisteningImageView 0
 #define COCOAPODS_VERSION_PATCH_NOGlisteningImageView 0
 
